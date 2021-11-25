@@ -1,7 +1,8 @@
-package com.example.learningtoolbox
+package com.example.learningtoolbox.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.learningtoolbox.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

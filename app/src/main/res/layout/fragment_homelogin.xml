@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".activities.HomeLoginFragment">
+        <ImageView
+            android:id="@+id/trabajador"
+            android:layout_width="match_parent"
+            android:layout_height="462dp"
+            android:contentDescription="@string/worker"
+            android:src="@drawable/foto_trabajador" />
+
+        <ImageView
+            android:id="@+id/toolbox"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/toolbox"
+            android:translationX="55dp"
+            android:translationY="20dp"
+            tools:ignore="ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetRight="50dp"
+            android:textColor="@color/white"
+            android:text="@string/log_in"
+            android:layout_gravity="center_horizontal"
+            android:translationY="480dp"
+            android:background="@color/orange"/>
+
+        <Button
+            android:id="@+id/logon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetRight="50dp"
+            android:textColor="@color/black"
+            android:text="@string/log_on"
+            android:layout_gravity="center_horizontal"
+            android:translationY="550dp"
+            android:background="@color/white"/>
+
+</FrameLayout>
+
