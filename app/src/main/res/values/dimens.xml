@@ -5,4 +5,5 @@
     <dimen name="cardLayoutMargin">5dp</dimen>
     <dimen name="logoHeight">3dp</dimen>
     <dimen name="defaultLayoutMargin">9dp</dimen>
+    <dimen name="textSizeContent">12sp</dimen>
 </resources>

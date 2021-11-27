@@ -2,4 +2,5 @@
     <string name="app_name">LearningToolbox</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textHome">Esta apliccación es realizada por estudiantes de MisionTic como proyecto. Pretende alojar videos que enseñen a reparar cosas específicas</string>
 </resources>

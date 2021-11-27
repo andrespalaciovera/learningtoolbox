@@ -34,6 +34,16 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/logo_horizontal"></ImageView>
 
+                    <TextView
+                        android:id="@+id/tvHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textHome"
+                        android:textSize="@dimen/textSizeContent"
+                        android:textColor="@color/primaryTextColor"
+                        android:gravity="fill_horizontal"
+                        android:layout_margin="@dimen/defaultLayoutMargin"></TextView>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
