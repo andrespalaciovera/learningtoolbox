@@ -7,4 +7,6 @@
     <color name="secondaryDarkColor">#333333</color>
     <color name="primaryTextColor">#4D4D4D</color>
     <color name="secondaryTextColor">#CCCCCC</color>
+    <color name="titlesColor">#FFFFFF</color>
+
 </resources>
