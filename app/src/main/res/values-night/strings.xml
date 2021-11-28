@@ -6,4 +6,7 @@
     <string name="do_not_account">¿No tienes cuenta?</string>
     <string name="learning">Learning</string>
     <string name="register">Registrate</string>
+    <string name="toolbox">ToolBox</string>
+    <string name="plomeria">Plomeria</string>
+    <string name="electricidad">Electricidad</string>
 </resources>
