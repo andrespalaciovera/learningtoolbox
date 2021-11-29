@@ -19,11 +19,11 @@ class SplashScreenActivity : AppCompatActivity() {
         val view= binding.root
         setContentView(view)
 
-        val animaton= AnimationUtils.loadAnimation(this, R.anim.animation)
-        binding.ivSplashScreen.startAnimation(animaton)
+        val animation= AnimationUtils.loadAnimation(this, R.anim.animation)
+        binding.ivSplashScreen.startAnimation(animation)
         val  intent= Intent (this,MainActivity::class.java)
 
-        animaton.setAnimationListener(object: Animation.AnimationListener{
+        animation.setAnimationListener(object: Animation.AnimationListener{
             override fun onAnimationStart(animation: Animation?) {
 
             }
