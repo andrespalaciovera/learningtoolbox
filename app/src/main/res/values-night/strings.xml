@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user">Ingresa usuario o email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_pass">¿Olvido la contraseña?</string>
+    <string name="do_not_account">¿No tienes cuenta?</string>
+    <string name="learning">Learning</string>
+    <string name="register">Registrate</string>
+    <string name="toolbox">ToolBox</string>
+    <string name="plomeria">Plomeria</string>
+    <string name="electricidad">Electricidad</string>
+</resources>

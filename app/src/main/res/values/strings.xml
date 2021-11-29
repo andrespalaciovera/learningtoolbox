@@ -1,6 +1,25 @@
 <resources>
     <string name="app_name">LearningToolbox</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="textHome">Esta aplicación es realizada por estudiantes de MisionTic como proyecto. Pretende alojar videos que enseñen a reparar cosas específicas</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textHome">Esta apliccación es realizada por estudiantes de MisionTic como proyecto. Pretende alojar videos que enseñen a reparar cosas específicas</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="login">Login</string>
+    <string name="user">Ingresa usuario o email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_pass">¿Olvido la contraseña?</string>
+    <string name="do_not_account">¿No tienes cuenta?</string>
+    <string name="learning">Learning</string>
+    <string name="register">Registrate</string>
+    <string name="categorias">Categorias</string>
+    <string name="m_s_vistos">Más Vistos</string>
+    <string name="recomendados">Recomendados</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="buscar">Buscar</string>
+    <string name="toolbox">ToolBox</string>
+    <string name="categor_as">Categorías</string>
+    <string name="que_vas_a_reparar_hoy">¿Que vas a reparar hoy?</string>
+    <string name="plomeria">Plomeria</string>
+    <string name="carpinteria">Carpinteria</string>
+    <string name="electricidad">Electricidad</string>
 </resources>
