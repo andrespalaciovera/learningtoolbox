@@ -50,6 +50,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/primaryDarkColor"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/pregunta"
             android:layout_width="match_parent"
