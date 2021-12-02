@@ -22,4 +22,7 @@
     <string name="plomeria">Plomeria</string>
     <string name="carpinteria">Carpinteria</string>
     <string name="electricidad">Electricidad</string>
+    <string name="inicio">Inicio</string>
+    <string name="panel">Panel</string>
+    <string name="home">Home</string>
 </resources>
