@@ -11,21 +11,6 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:titleTextColor="@color/primaryDarkColor"
-            app:navigationIcon="@drawable/ic_baseline_menu_24"
-            app:title="Toolbox"
-            android:background="?attr/colorPrimary">
-            <SearchView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="210dp">
-            </SearchView>
-        </androidx.appcompat.widget.Toolbar>
         <fragment
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -33,9 +18,8 @@
             android:id="@+id/fragContent"
             app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true"
-            android:name="androidx.navigation.fragment.NavHostFragment">
+            android:name="androidx.navigation.fragment.NavHostFragment"/>
 
-        </fragment>
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

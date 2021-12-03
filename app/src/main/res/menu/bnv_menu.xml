@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/loginFragment"
-        android:title="@string/login"
-        android:icon="@drawable/ic_baseline_login_24"/>
-
-    <item
         android:id="@+id/navHomeFragment"
         android:title="@string/home"
         android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/navLoginFragment"
+        android:title="@string/login"
+        android:icon="@drawable/ic_baseline_login_24"/>
 
     <item
         android:id="@+id/navPanelFragment"

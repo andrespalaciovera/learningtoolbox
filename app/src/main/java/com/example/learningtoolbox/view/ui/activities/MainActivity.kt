@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         configNav()
     }
-    fun configNav(){
+    private fun configNav(){
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragContent) as NavHostFragment
         val navController = navHostFragment.navController
         findViewById<BottomNavigationView>(R.id.bnv_menu).setupWithNavController(navController)
