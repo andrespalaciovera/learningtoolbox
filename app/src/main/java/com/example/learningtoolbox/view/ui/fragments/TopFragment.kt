@@ -8,13 +8,13 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.learningtoolbox.databinding.FragmentLoginBinding
-import com.example.learningtoolbox.view.viewmodel.LoginViewModel
+import com.example.learningtoolbox.databinding.FragmentTopBinding
+import com.example.learningtoolbox.view.viewmodel.TopViewModel
 
-class LoginFragment : Fragment() {
+class TopFragment : Fragment() {
 
-    private lateinit var loginViewModel: LoginViewModel
-    private var _binding: FragmentLoginBinding? = null
+    private lateinit var topViewModel: TopViewModel
+    private var _binding: FragmentTopBinding? = null
 
     private val binding get() = _binding!!
 
@@ -22,15 +22,15 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-        loginViewModel =
-            ViewModelProvider(this).get(LoginViewModel::class.java)
+    ): View? {
+        topViewModel =
+            ViewModelProvider(this)[TopViewModel::class.java]
 
-        _binding = FragmentLoginBinding.inflate(inflater, container, false)
+        _binding = FragmentTopBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.welcome
-        loginViewModel.text.observe(viewLifecycleOwner, Observer {
+        val textView: TextView = binding.textDashboard
+        topViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

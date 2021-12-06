@@ -11,14 +11,18 @@
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.21770833333333334" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2140625" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.2140625" />
+        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/drawable/text_shape.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/fragment_favorites.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/fragment_home.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/fragment_panel.xml" value="0.25" />
+        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/fragment_top.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/layout/personal_toolbar.xml" value="0.276268115942029" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/menu/bnv_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
         <entry key="..\:/Users/danyh/AndroidStudioProjects/learningtoolbox/app/src/main/res/menu/toolbar_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
