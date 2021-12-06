@@ -4,12 +4,15 @@
 
     <application
         android:fullBackupOnly="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LearningToolbox"
-        android:hardwareAccelerated="false">
+        android:theme="@style/Theme.LearningToolbox">
+        <activity
+            android:name=".view.ui.activities.LoginActivity"
+            android:exported="false" />
         <activity
             android:name=".view.ui.activities.SplashScreenActivity"
             android:exported="true">
