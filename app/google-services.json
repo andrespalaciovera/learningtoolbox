@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "587833363588",
+    "project_id": "learningtoolbox-4414a",
+    "storage_bucket": "learningtoolbox-4414a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587833363588:android:1441e5a253d13150a886d1",
+        "android_client_info": {
+          "package_name": "com.example.learningtoolbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587833363588-gahkr4j8nrrsu2t897e4ncp0jm2d62gl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learningtoolbox",
+            "certificate_hash": "ae930e586ce1269cad18a12948a1387650cf9468"
+          }
+        },
+        {
+          "client_id": "587833363588-0esdssfd2krmr5201lqbek603ia8jadq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvYxxf_k8791uQM_6ba1QWRqrT41-m_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587833363588-0esdssfd2krmr5201lqbek603ia8jadq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
