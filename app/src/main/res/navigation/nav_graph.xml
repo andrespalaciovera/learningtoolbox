@@ -3,28 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/navHomeFragment">
     <fragment
-        android:id="@+id/homeFragment"
+        android:id="@+id/navHomeFragment"
         android:name="com.example.learningtoolbox.view.ui.fragments.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            android:id="@+id/action_navHomeFragment_to_navLoginFragment"
+            app:destination="@id/navLoginFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navPanelFragment"
+            app:destination="@id/navPanelFragment" />
     </fragment>
     <fragment
-        android:id="@+id/loginFragment"
+        android:id="@+id/navLoginFragment"
         android:name="com.example.learningtoolbox.view.ui.fragments.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_panelFragment3"
-            app:destination="@id/panelFragment" />
+            android:id="@+id/action_navLoginFragment_to_navPanelFragment"
+            app:destination="@id/navPanelFragment" />
+        <action
+            android:id="@+id/action_navLoginFragment_to_navHomeFragment"
+            app:destination="@id/navHomeFragment" />
     </fragment>
     <fragment
-        android:id="@+id/panelFragment"
+        android:id="@+id/navPanelFragment"
         android:name="com.example.learningtoolbox.view.ui.fragments.PanelFragment"
-        android:label="fragment_panel"
-        tools:layout="@layout/fragment_panel" />
+        android:label="Panel"
+        tools:layout="@layout/fragment_panel" >
+        <action
+            android:id="@+id/action_navPanelFragment_to_navHomeFragment"
+            app:destination="@id/navHomeFragment" />
+        <action
+            android:id="@+id/action_navPanelFragment_to_navLoginFragment"
+            app:destination="@id/navLoginFragment" />
+    </fragment>
+
 </navigation>

@@ -25,4 +25,5 @@
     <string name="inicio">Inicio</string>
     <string name="panel">Panel</string>
     <string name="home">Home</string>
+    <string name="favoritos">Favoritos</string>
 </resources>
